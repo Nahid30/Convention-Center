@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* common css end  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
