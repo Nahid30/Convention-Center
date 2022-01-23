@@ -11,3 +11,24 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.custom_card:hover{
+    background-color: #dc3545;
+    color: #fff;
+    transition: .5s;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.little_btn{
+    background-color: orangered;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+    top: -50px;
+    left: 170px;
+    
+}
+
