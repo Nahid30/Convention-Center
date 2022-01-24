@@ -52,14 +52,12 @@
             </div>
           </nav>
 
-        <!-- menu part end -->
-
 
 
         <!-- banner slide part start  -->
 
         
-        <section>
+        <section class="  mt-5 pt-5">
 
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators ">
@@ -109,14 +107,32 @@
 
         </section>
 
-
-        <!-- banner slide part end -->
-
     </header>
 
-  <!-- header part start  --> 
+  <!-- header part end  --> 
 
-    
+
+  <!-----------------
+    main part start
+  ------------------->
+
+  <main>
+
+      <!-- toast part start  -->
+  
+
+    <section class="container mt-4">
+      <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img width="100%" src="images/banner03.jpg" class="rounded me-2" alt="...">
+          <button type="button" style="margin-top: -185px; margin-left: -1.25rem;" class="btn-close bg-danger " data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+          <p>Night View of Dhaka-Convention-Center</p>
+        </div>
+      </div>
+    </section>
+
     
 
   <!-- Package part start  -->
@@ -228,9 +244,6 @@
     
 
 
-  <!-- Package part end -->
-
-
   <!-- Frequent part start  -->
 
     <section>
@@ -291,69 +304,42 @@
               </div>
             </div>
           </div>
-
-          
-          <div class="col-lg-6 ">
+          <div class="col-lg-6 mt-4 ">
             <img src="images/people.png " class="img-fluid" alt="">
           </div>
 
         </div>
-        
-        
-        
-
       </div>
     </section>
 
 
-  <!-- Frequent part end -->
+
+  </main>
+
+
+  <!-----------------
+    main part end
+  ------------------->
+  
 
   <!-- footer part start  -->
 
     <footer class="bg-dark">
-
-      <!-- <section class="bg-dark">
-
-        <div class="container d-flex">
-
-          <div class="left">
-            <p class="text-white">© 2020 bike. All rights reserved</p>
-          </div>
-          <h5 class="text-white">Get the App</h5>
-          <div class="right">
-            
-            <img width="20%" src="icons/google-play-badge.png" alt="">
-            <img width="20%" src="icons/apple icon.png" alt="">
-          </div>
-
-        </div>
-
-      </section> -->
       
-
       <div class="container">
         <div class="row custom_footer_row">
           <div class="col-lg-6">
             <p class="text-white text-center order-sm-2 ">© 2020 bike. All rights reserved</p>
           </div>
-  
           <div class="custom_footer ps-5  col-lg-6 order-sm-0">
             <div class="mt-5 ms-5 ps-5">
               <h5 class="text-white ps-2">Get the app</h5>
               <div><a target="_blank" href="https://play.google.com/intl/en_us/badges/"><img width="40%" src="icons/google-play-badge.png" alt=""></a></div>
               <div><a target="_blank" href="https://www.apple.com/store"><img width="40%" src="icons/apple icon.png" alt=""></a></div>
-           
             </div>
           </div>
-  
         </div>
       </div>
-       
-
-       
-
-       
-    
       
     </footer>
 
@@ -361,7 +347,24 @@
   <!-- footer part end -->
 
 
+
+
     <!-- bootstrap js -->
+
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    
+    <!-- This script makes the toast working -->
+
+  <script>
+      window.onload = (e) => {
+          let myToast = document.querySelector('.toast');
+          let bsToast = new bootstrap.Toast(myToast);
+          bsToast.show();
+      }
+  </script>
+
+
+
 </body>
 </html>
