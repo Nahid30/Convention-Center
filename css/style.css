@@ -10,7 +10,10 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
 /* custom card  */
+
 .custom_card:hover{
     background-color: #dc3545;
     color: #fff;
@@ -21,6 +24,7 @@ body{
 
 }
 /* little button  */
+
 .little_btn{
     background-color: orangered;
     color: #fff;
@@ -31,8 +35,8 @@ body{
     left: 170px;
     
 }
-
 /* custom footer  */
+
 .custom_footer_row{
     display: flex;
     align-items: center;
